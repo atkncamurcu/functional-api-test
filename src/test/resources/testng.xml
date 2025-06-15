@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ReqRes API Test Suite">
+    <test name="CRUD Tests">
+        <classes>
+            <class name="com.reqres.api.tests.UserCrudTests"/>
+            <class name="com.reqres.api.tests.ResourceCrudTests"/>
+        </classes>
+    </test>
+    <test name="Authentication Tests">
+        <classes>
+            <class name="com.reqres.api.tests.AuthenticationTests"/>
+        </classes>
+    </test>
+    <test name="Pagination Tests">
+        <classes>
+            <class name="com.reqres.api.tests.PaginationTests"/>
+        </classes>
+    </test>
+    <test name="Error Handling Tests">
+        <classes>
+            <class name="com.reqres.api.tests.ErrorHandlingTests"/>
+        </classes>
+    </test>
+    <test name="Performance Tests">
+        <classes>
+            <class name="com.reqres.api.tests.PerformanceTests"/>
+        </classes>
+    </test>
+    <test name="Schema Validation Tests">
+        <classes>
+            <class name="com.reqres.api.tests.SchemaValidationTests"/>
+        </classes>
+    </test>
+    <test name="Data Integrity Tests">
+        <classes>
+            <class name="com.reqres.api.tests.DataIntegrityTests"/>
+        </classes>
+    </test>
+    <test name="API Key Tests">
+        <classes>
+            <class name="com.reqres.api.tests.ApiKeyTests"/>
+        </classes>
+    </test>
+</suite>
